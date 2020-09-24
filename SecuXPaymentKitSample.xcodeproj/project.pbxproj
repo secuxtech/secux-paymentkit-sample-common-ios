@@ -42,7 +42,7 @@
 		2E2357F324EE3F5A0053762B /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
 		2E2357F524EE45420053762B /* SecuXQRCodeParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuXQRCodeParser.swift; sourceTree = "<group>"; };
 		2E2357F924EE4BE60053762B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		2EA883F024E10FD100207283 /* SecuXPaymentKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecuXPaymentKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA883F024E10FD100207283 /* SecuXP22Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecuXP22Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA883F324E10FD100207283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA883F524E10FD100207283 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2EA883F724E10FD100207283 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		2EA883F124E10FD100207283 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2EA883F024E10FD100207283 /* SecuXPaymentKitSample.app */,
+				2EA883F024E10FD100207283 /* SecuXP22Tool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2EA883EF24E10FD100207283 /* SecuXPaymentKitSample */ = {
+		2EA883EF24E10FD100207283 /* SecuXP22Tool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EA8840424E10FD400207283 /* Build configuration list for PBXNativeTarget "SecuXPaymentKitSample" */;
+			buildConfigurationList = 2EA8840424E10FD400207283 /* Build configuration list for PBXNativeTarget "SecuXP22Tool" */;
 			buildPhases = (
 				D52905D0B612B9AE29683D7E /* [CP] Check Pods Manifest.lock */,
 				2EA883EC24E10FD100207283 /* Sources */,
@@ -187,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = SecuXPaymentKitSample;
+			name = SecuXP22Tool;
 			productName = SecuXPaymentKitSample;
-			productReference = 2EA883F024E10FD100207283 /* SecuXPaymentKitSample.app */;
+			productReference = 2EA883F024E10FD100207283 /* SecuXP22Tool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2EA883EF24E10FD100207283 /* SecuXPaymentKitSample */,
+				2EA883EF24E10FD100207283 /* SecuXP22Tool */,
 			);
 		};
 /* End PBXProject section */
@@ -447,6 +447,7 @@
 			baseConfigurationReference = CCA9F096526F6FD8775C61F5 /* Pods-SecuXPaymentKitSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 439P2P24S8;
 				INFOPLIST_FILE = SecuXPaymentKitSample/Info.plist;
@@ -455,8 +456,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.secux.SecuXPaymentKitCommon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secux.SecuXPaymentKitCommonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -467,6 +469,7 @@
 			baseConfigurationReference = 6042AE7CBBB35B6CF8A6A4BA /* Pods-SecuXPaymentKitSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 439P2P24S8;
 				INFOPLIST_FILE = SecuXPaymentKitSample/Info.plist;
@@ -475,8 +478,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.secux.SecuXPaymentKitCommon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secux.SecuXPaymentKitCommonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -494,7 +498,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2EA8840424E10FD400207283 /* Build configuration list for PBXNativeTarget "SecuXPaymentKitSample" */ = {
+		2EA8840424E10FD400207283 /* Build configuration list for PBXNativeTarget "SecuXP22Tool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2EA8840524E10FD400207283 /* Debug */,
