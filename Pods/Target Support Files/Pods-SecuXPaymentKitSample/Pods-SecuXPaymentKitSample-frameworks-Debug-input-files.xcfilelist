@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SecuXPaymentKitSample/Pods-SecuXPaymentKitSample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework
+${PODS_ROOT}/secux-paymentdevicekit/secux_paymentdevicekit.framework
+${BUILT_PRODUCTS_DIR}/swiftScan/swiftScan.framework
