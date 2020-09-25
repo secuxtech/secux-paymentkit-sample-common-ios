@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSBluetoothAlwaysUsageDescription</key>
@@ -28,6 +28,8 @@
 	<string>APP needs to use the phone's BLE</string>
 	<key>NSCameraUsageDescription</key>
 	<string>APP needs to use the camera to scan QRCode</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>APP needs to use the FaceID to  auto login</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
