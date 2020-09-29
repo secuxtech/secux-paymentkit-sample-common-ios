@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2EA883EF24E10FD100207283"
-               BuildableName = "SecuXPaymentKitSample.app"
-               BlueprintName = "SecuXPaymentKitSample"
+               BuildableName = "SecuXP22Tool.app"
+               BlueprintName = "SecuXP22Tool"
                ReferencedContainer = "container:SecuXPaymentKitSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2EA883EF24E10FD100207283"
-            BuildableName = "SecuXPaymentKitSample.app"
-            BlueprintName = "SecuXPaymentKitSample"
+            BuildableName = "SecuXP22Tool.app"
+            BlueprintName = "SecuXP22Tool"
             ReferencedContainer = "container:SecuXPaymentKitSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2EA883EF24E10FD100207283"
-            BuildableName = "SecuXPaymentKitSample.app"
-            BlueprintName = "SecuXPaymentKitSample"
+            BuildableName = "SecuXP22Tool.app"
+            BlueprintName = "SecuXP22Tool"
             ReferencedContainer = "container:SecuXPaymentKitSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

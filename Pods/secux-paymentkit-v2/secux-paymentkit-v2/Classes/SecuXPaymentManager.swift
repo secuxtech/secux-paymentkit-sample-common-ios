@@ -100,6 +100,7 @@ open class SecuXPaymentManager: SecuXPaymentManagerBase {
         
         let (ret, data) = self.secXSvrReqHandler.getStoreInfo(devID: devID)
         if ret == SecuXRequestResult.SecuXRequestOK, let storeInfo = data{
+            print("store info: " + String(data: storeInfo, encoding: .utf8)!)
             do{
                 let storeInfo = try SecuXStoreInfo.init(storeData: storeInfo)
                 return (SecuXRequestResult.SecuXRequestOK, "", storeInfo)
